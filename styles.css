@@ -118,16 +118,41 @@ body{
     font-weight: 100;
 }
 
-.voucher-content{
-    background-image: url(images/iphone-16-pro-4.jpeg);
-    background-position: center;
-    background-size: cover;
+/*iphone-img*/
+
+.iphone-img{
+    width: 40%;
+    height: 20;
     object-fit: cover;
-    width: 80vw;
-    height: 50vh;
-    color: #fff;
-    padding: 2rem;
+}
+.iphone-img img{
+    width: 100%;
+    height: auto;
+}
+.section-voucher{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 auto;
+}
+.voucher-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 3rem;
+    color: #fff;
+}
+.voucher-desc h1{
+    font-size: 3rem;
+    max-width: 60%;
+}
+.voucher-desc a{
+    color: #fff;
+     transition: background-color 0.3s ease;
+}
+.voucher-desc a:hover{
+    text-decoration: none;
+}
+.section-voucher{
+   background-color: #000;
 }
