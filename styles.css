@@ -1,0 +1,133 @@
+
+/*selector universel*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body style*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+
+/*Nav-lang*/
+
+.nav-lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+}
+.nav-lang p{
+    font-size: 0.8rem;
+}
+.nav-lang a{
+    color: #fff;
+}
+.nav-lang select{
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+/*menu de navigation*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    border-bottom: 1px solid rgb(236,236,236);
+
+}
+
+/*menu burge*/
+
+.menu-icon{
+    display: none;
+}
+
+/*nav-list*/
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+/* liens nav-list */
+
+.nav-list a{
+    text-decoration: none;
+    color: rgb(127,127,127);
+    transition: background-color 0.3s ease;
+}
+.nav-list a:hover{
+    color: #000;
+}
+/*Search input*/
+
+.search input{
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: rgb(245,245,245);
+  
+}
+.search button{
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.search a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*main-section*/
+
+.main-section{
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 5%;
+}
+.aside-menu{
+    border-right: 1px solid rgb(236,236,236);
+}
+.aside-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+}
+.aside-menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.voucher-content{
+    background-image: url(images/iphone-16-pro-4.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 80vw;
+    height: 50vh;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
