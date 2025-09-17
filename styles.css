@@ -217,3 +217,17 @@ body{
     height: 30px;
 }
 
+/*login form*/
+
+.login-button{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.login-button button{
+    width: 7rem;
+    border-radius: 5px;
+}
+.login-button a{
+    color: rgb(219,68,68);
+}
