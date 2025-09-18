@@ -167,6 +167,8 @@ body{
 }
 .sign-up-form input{
     border: none;
+     padding: 0.5rem;
+    outline: none;
     border-bottom: 1px solid rgb(159,159,159);
 }
 .sign-up-form button{
