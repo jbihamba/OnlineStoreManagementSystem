@@ -216,10 +216,20 @@ body{
 .rediction{
     background-color: rgb(219,68,68);
     color: #fff;
-    position: absolute;
-    top: 90vh;
-    padding: .1rem;
+    position: relative;
+    top: -19rem;
+    width: 3rem;
+    
     border-radius: 10px;
+}
+.redict-cl{
+    background-color: rgb(219,68,68);
+    color: #fff;
+    position: relative;
+    top: -21rem;
+    width: 3rem;
+    
+    border-radius: 10px; 
 }
 .btn button{
     color: #fff;
@@ -227,9 +237,19 @@ body{
     font-weight: 700;
     width: 17rem;
     height: 2rem;
-    position: absolute;
-     top: 111vh;
-    left: 20vw;
+    position: relative;
+     top: -2rem;
+    left:0rem;
     cursor: pointer;
     
+}
+.all-poduct{
+    text-align: center;
+}
+.all-poduct a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(219,68,68);
+    padding: 1rem;
+    text-transform: capitalize;
 }
