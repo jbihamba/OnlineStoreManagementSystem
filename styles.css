@@ -253,3 +253,24 @@ body{
     padding: 1rem;
     text-transform: capitalize;
 }
+.cartegorie-carte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+     padding: 1rem 5%;
+}
+.categorie-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid black;
+    padding: 3rem;
+    cursor: pointer;
+     transition: background-color 0.3s ease;
+}
+.categorie-item:hover{
+    background-color: #f0f0f0;
+}
