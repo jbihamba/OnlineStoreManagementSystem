@@ -334,10 +334,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 20rem;
     color: #fff;
     background-color: #000;
-    margin: 1rem 17%;
+    margin: 1rem 5%;
 }
 .music-experience-content h2{
     font-size: 2rem;
@@ -359,4 +359,150 @@ body{
 }
 .music-experience-content button:hover{
     background-color: rgb(219,68,68);
+}
+
+/*====new arrival====*/
+.new-arrivals {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; /* PlayStation prend plus d’espace */
+  grid-template-rows: auto auto; /* 2 lignes */
+  gap: 2rem;
+  padding: 1rem 5%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.new-arrivals> div {
+  background-repeat: no-repeat;
+  background-position: center; /* centre parfaitement les images */
+  background-size: contain; 
+  border-radius: 5px;
+  width: 100%;
+  min-height: 250px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.new-arrivals a{
+    color: #fff;
+}
+/* === PlayStation (grande image à gauche) === */
+
+.new-arrivals__item-playstation {
+  background-image: url("images/playstation5.png"); /* ajuster le chemin si CSS est dans un dossier */
+  background-color: #000;
+  grid-row: 1 / span 2; /* prend les 2 lignes */
+  grid-column: 1; /* première colonne */
+  min-height: 600px;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: end;
+  color: #fff;
+  padding: 3rem;
+}
+.new-arrivals__item-playstation p{
+    width: 40%;
+}
+
+/* === Women collection (haut droite) === */
+
+.new-arrivals__item-women {
+  background-image: url("images/chapeau-dame.png");
+  background-color: #000;
+  grid-column: 2 / span 2; /* prend les 2 colonnes de droite */
+  grid-row: 1; /* ligne du haut */
+  min-height: 280px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.new-arrivals__item-women p{
+    width: 35%;
+}
+/* === Speaker (bas milieu) === */
+.new-arrivals__item-speaker {
+  background-image: url("images/amazon-speaker.png");
+  background-color: #000;
+  grid-column: 2; /* colonne du milieu */
+  grid-row: 2; /* ligne du bas */
+  min-height: 280px;
+   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* === Parfum (bas droite) === */
+.new-arrivals__item-perfume {
+  background-image: url("images/gucci-parfum.png");
+  background-color: #000;
+  grid-column: 3; /* colonne de droite */
+  grid-row: 2; /* ligne du bas */
+  min-height: 280px;
+   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/*====testimony====*/
+
+.testimony-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding:5rem ;
+}
+.testimony-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.testimony-icon{
+    border-radius: 50%;
+    background-color: rgb(193,193,193);
+    padding: 1rem;
+}
+
+/*====footer====*/
+
+.footer{
+     color: #fff;
+    background-color: #000;
+   
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+.footer h3{
+    padding-bottom: 2rem;
+}
+.footer-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.copyright{
+    text-align: center;
+   
 }
