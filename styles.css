@@ -571,7 +571,22 @@ body{
      top: -4rem;
     left:0rem;
 }
-
+.wishlist-item_trash-btn img{
+     width: 20px;
+    height: 20px;
+     background: none; 
+     padding: 0 !important;
+}
+.wishlist-item_trash-btn{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    position: relative;
+    top: -19rem;
+    left: 15rem;
+    
+}
 /*==== Recommendations section ====*/
 
 
