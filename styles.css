@@ -506,3 +506,51 @@ body{
     text-align: center;
    
 }
+
+/*===Add/cart===*/
+
+.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+   padding: 1rem 5%;
+}
+.cart-table{
+    width: 100%;
+   
+}
+.cart-table__head th{
+    width: 20%;
+}
+.cart-item__image-wrapper{
+    width: 10%;
+    height: 10%;
+    text-align: center;
+}
+
+.cart-item__image-wrapper img{
+    width: 100%;
+    height: auto;
+}
+
+.cart-item__product{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+
+.cart-item__quantity  input[type=number] {
+    width: auto;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .cart-item__price,
+  .cart-item__quantity,
+  .cart-item__subtotal{
+    text-align: center;
+  }

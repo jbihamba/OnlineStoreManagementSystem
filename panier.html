@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+            <link rel="stylesheet" href="styles.css">
+            <title>cart</title>
+        </head>
+        <body>
+            
+                        <!--Header-->
+
+            <header>
+                        <!--Nav-lang-->
+
+                <nav class="nav-lang">
+                    <p>
+                       summer Saie For All Swim Suits And Free Express Develiver - OFF 50%! <a href="connection.html">ShopNow</a>
+                    </p>
+
+                        <!--Select lang-->
+
+                    <select name="langue" id="lang">
+                        <option value="english">English</option>
+                        <option value="french">French</option>
+                    </select>
+                </nav>
+
+                         <!--Menu de navigation-->
+                <nav class="navbar">
+
+                    <!--logo-->
+
+                    <p>
+                        EXCLUSIVE
+                    </p>
+
+                    <!--Menu list-->
+
+                  <div class="navbar-menu">
+
+                        <!--Menu burger-->
+
+                         <input type="checkbox" id="menu" name="menu" hidden>
+                        <label for="menu" class="menu-icon"><img src="assets/align-justify.svg" alt="menu"></label>
+
+                        <!--Liens de navigation-->
+
+                        <ul class="nav-list">
+                            <li><a href="index.html"><u>Home</u></a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="connection.html">Sign Up</a></li>
+                        </ul>
+                    </div>
+                      
+                    <!--Menu Search-->
+
+                   <form action="recherche" class="search">
+
+                        <input type="search" name="q" placeholder="what are you looking for?">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                         <!--Panier-->
+
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="panier.html"><i class="fas fa-shopping-cart"></i></a>
+
+                   </form>
+                
+                </nav>
+            </header>
+                
+            <!--main-->
+
+            <main>
+                <section class="cart-section">
+                    <h2>
+                        <span class="cart-section__breadcrumb">
+                            Home /
+                        </span>
+                        Cart
+                    </h2>
+
+                    <!--cart-container-->
+
+                    <div class="cart-container">
+
+                        <table class="cart-table">
+
+                           <thead class="cart-table__head">
+
+                             <tr>
+
+                                <th>Product</th>
+                                <th>Price </th>
+                                <th>Quantity</th>
+                                <th>Subtotal</th>
+
+                            </tr>
+
+                           </thead>
+
+                            <tbody class="cart-table__body">
+
+                           
+                            <!--First cart-->
+
+                            <tr class="cart-item">
+
+                                <td class="cart-item__product">
+
+                                    <div class="cart-item__image-wrapper">
+
+                                        <img src="images/screen.png" alt="screen">
+
+                                    </div>
+
+                                    <p>
+                                        LCD Monitor
+                                    </p>
+
+                                </td>
+
+                                <td class="cart-item__price">
+
+                                    <p>
+                                        $370
+                                    </p>
+                                </td>
+
+                                <td class="cart-item__quantity">
+
+                                    <input  type="number" id="quantity" name="quantity" min="0" max="120" step="1" value="1">
+
+                                </td>
+
+                                <td class="cart-item__subtotal">
+                                    <p>
+                                        $370
+                                    </p>
+                                </td>
+                            </tr>
+
+                             <!--Second cart-->
+
+                             <tr class="cart-item">
+
+                                <td class="cart-item__product">
+
+                                     <div class="cart-item__image-wrapper">
+
+                                        <img src="images/manette.png" alt="manette">
+                                    </div>
+                                    <p>
+                                        LCD Monitor
+                                    </p>
+                                </td>
+
+                                <td class="cart-item__price">
+                                    <p>
+                                        $120
+                                    </p>
+                                </td>
+
+                                <td class="cart-item__quantity">
+                                     <input  type="number" id="quantity" name="quantity" min="0" max="120" step="1" value="1">
+                                </td>
+
+                                <td class="cart-item__subtotal">
+                                    <p>
+                                        $120
+                                    </p>
+                                </td>
+
+                            </tr>
+
+                            <!--Third cart-->
+
+                             <tr class="cart-item">
+
+                                <td class="cart-item__product">
+
+                                     <div class="cart-item__image-wrapper">
+
+                                        <img src="images/jacket-black.png" alt="jacket-black">
+                                    </div>
+                                    <p>
+                                        Qualited Satin jacket
+                                    </p>
+                                </td>
+
+                                <td class="cart-item__price">
+                                    <p>
+                                        $375
+                                    </p>
+                                </td>
+
+                                <td class="cart-item__quantity">
+                                     <input  type="number" id="quantity" name="quantity" min="0" max="120" step="1" value="1">
+                                </td>
+
+                                <td class="cart-item__subtotal">
+                                    <p>
+                                        $375
+                                    </p>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+                </section>
+            </main>
+        </body>
+</html>
