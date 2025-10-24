@@ -543,9 +543,11 @@ body{
 }
 .contact-info__item--call{
     padding: 1rem;
+    background-color: rgb(245,245,245);
 }
-.details-info-contact{
-    padding-bottom: 1rem;
+.contact-info__content{
+    padding: 1rem;
+    background-color: rgb(245,245,245);
 }
 .contact-info__block--email{
     border-top: 1px solid #000;
@@ -559,7 +561,7 @@ body{
   
 }
 .contact-form__form textarea{
-    background-color: rgb(207, 205, 204);
+    background-color: rgb(245,245,245);
     border: none;
     outline: none;
 }
@@ -567,7 +569,7 @@ body{
     outline: none;
     border: none;
     padding: 0.8rem;
-    background-color: rgb(207, 205, 204);
+    background-color: rgb(245,245,245);
 }
 
 .contact-form__actions{
