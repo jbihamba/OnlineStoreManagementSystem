@@ -102,7 +102,7 @@
 
                            </thead>
 
-                            <tbody class="cart-table__body">
+                            <tbody class="cart-table__body" >
 
                            
                             <!--First cart-->
@@ -125,9 +125,9 @@
 
                                 <td class="cart-item__price">
 
-                                    <p>
+                                    <span>
                                         $370
-                                    </p>
+                                    </span>
                                 </td>
 
                                 <td class="cart-item__quantity">
@@ -137,9 +137,9 @@
                                 </td>
 
                                 <td class="cart-item__subtotal">
-                                    <p>
+                                    <span>
                                         $370
-                                    </p>
+                                    </span>
                                 </td>
                             </tr>
 
@@ -159,9 +159,9 @@
                                 </td>
 
                                 <td class="cart-item__price">
-                                    <p>
+                                    <span>
                                         $120
-                                    </p>
+                                    </span>
                                 </td>
 
                                 <td class="cart-item__quantity">
@@ -169,9 +169,9 @@
                                 </td>
 
                                 <td class="cart-item__subtotal">
-                                    <p>
+                                    <span>
                                         $120
-                                    </p>
+                                    </span>
                                 </td>
 
                             </tr>
@@ -192,9 +192,9 @@
                                 </td>
 
                                 <td class="cart-item__price">
-                                    <p>
+                                    <span>
                                         $375
-                                    </p>
+                                    </span>
                                 </td>
 
                                 <td class="cart-item__quantity">
@@ -202,17 +202,148 @@
                                 </td>
 
                                 <td class="cart-item__subtotal">
-                                    <p>
+                                    <span>
                                         $375
-                                    </p>
+                                    </span>
                                 </td>
 
                             </tr>
 
                         </tbody>
                       </table>
+
+                      
                     </div>
+
+                    <!--cart action -->
+
+                      <div class="cart__action">
+                        <a href="index.html" class="btn-return">Return To Shop</a>
+                        <button class="btn-update">Update Cart</button>
+                      </div>
+
+                       <!--Coupon code -->
+
+                <div class="cart-sidebar">
+
+                    <!--coupon code-->
+
+                     <div class="cart-coupon">
+
+                        <input type="text" placeholder="Enter coupon code">
+                        <button>Apply coupon</button>
+
+                    </div>
+
+                   <!-- Cart Summary -->
+
+                    <div class="cart-summary">
+                        <p class="cart-summary__title">
+                            Cart Total
+                        </p>
+
+                        <div class="cart-summary__item">
+                            <span>Subtotal :</span>
+                            <span>$170</span>
+                        </div>
+
+                        <div class="cart-summary__item">
+                            <span>Shipping :</span>
+                            <span>Free</span>
+                        </div>
+
+                        <div class="cart-summary__item cart-summary__total">
+                            <span>
+                                Total :
+                            </span>
+                            <span id="grand-total">$1750</span>
+                        </div>
+
+                        <button class="btn-checkout">
+                            Process to Checkout
+                        </button>
+
+                    </div>
+
+                </div>
+
                 </section>
             </main>
+
+              <!--Footer-->
+
+                <footer class="footer">
+                    <!--footer content-->
+
+                    <div class="footer-container">
+
+                         <!-- Section 1 : newsletter -->
+                        <div class="footer-newsletter">
+                            <h3>
+                                EXCLUSIVE
+                            </h3>
+                            <p>
+                                Subscribe
+                            </p>
+                            <p>
+                                Get 10% off your first order
+                            </p>
+                            <div class="footer-subscribe">
+                                <input type="text" name="text" id="text" placeholder="Enter your Enail " >
+                               <button class="subscribe-btn"> <i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+
+                          <!-- Section 2 : support -->
+                        <div class="footer-support">
+                            <h3>
+                                Support
+                            </h3>
+                            <span>
+                                kinsha,Ngalima
+                            </span>
+                           
+                            <p>exclusive@gmail.com</p>
+                            <p>
+                                243 847 071 61
+                            </p>
+                        </div>
+
+                           <!-- Section 3 : compte -->
+                        <div class="footer-account">
+                            <h3>
+                                Account
+                            </h3>
+                            <ul class="footer-links">
+                                <li><a href="#">My account</a></li>
+                                <li><a href="login.html">login/Register</a></li>
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">Whislist</a></li>
+                                <li><a href="#">Shop</a></li>
+                            </ul>
+                        </div>
+
+                          <!-- Section 4 : liens rapides -->
+                        <div class="footer-quick-links">
+                            <h3>
+                                Quick link
+                            </h3>
+                            <ul class="footer-links">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms Of Use</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                         <p>&copy; <span id="year"></span> <a href="https://bihamba.netlify.app/" target="_blank">Joseph Bihamba</a>. All rights reserved.</p>
+                         <p>Design and content protected by copyright.</p>
+                    </div>
+                     <script>
+                         document.getElementById("year").textContent = new Date().getFullYear();
+                    </script>
+                </footer>
+
         </body>
 </html>
